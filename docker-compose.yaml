@@ -1,0 +1,7 @@
+version: '3'
+services:
+  wechat-payment-gateway:
+    build: .
+    image: wechat-gateway
+    ports:
+      - 8080:8080
